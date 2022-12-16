@@ -14,6 +14,13 @@
     margin-left: 0;
 }
 
+p {
+    text-align: left;
+    line-height: 1.5em;
+    word-spacing: 0.16em;
+    letter-spacing: 0.12em;
+}
+
 h1,
 h2,
 .font-weight-bold {
@@ -76,14 +83,6 @@ h6,
     padding-left: 0;
     padding-right: 0;
     text-align: center;
-}
-
-.back-to-top {
-    position: fixed;
-    display: none;
-    right: 45px;
-    bottom: 45px;
-    z-index: 99;
 }
 
 .navbar-light .navbar-nav .nav-link {
@@ -187,6 +186,11 @@ h6,
     background-size: cover;
 }
 
+.hero-header2 {
+    background: linear-gradient(rgba(18, 15, 45, .5), rgba(18, 15, 45, .5)), url(../img/home-cam2.jpg) top right no-repeat;
+    background-size: cover;
+}
+
 .service-item div {
     z-index: 1;
 }
@@ -270,14 +274,32 @@ h6,
     background: var(--secondary);
 }
 
-.blog-date::after {
-    position: absolute;
-    content: "";
-    width: 0;
-    height: 0;
-    top: -25px;
-    left: 0;
-    border: 13px solid;
-    border-color: transparent #D34351 #D34351 transparent;
-    z-index: -1;
+/* For image zoom containers */
+#img-zoom-container {
+    display: inline-block;
+    margin: 20px;
+    overflow: hidden;         
+}
+
+#img-zoom-container img {
+    display: block;
+    transition: transform .4s;
+}
+
+#img-zoom-container:hover img {
+    transform: scale(1.3);
+    transform-origin: 50% 50%;
+}
+
+/* Property Crime Rates */
+#propertyCrimeChart {
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;
+    -webkit-font-smoothing: antialiased;
+    font-size: 16px;
+    color: #404244;
+    aspect-ratio: auto 800 / 400;
+    display: block;
+    box-sizing: border-box;
+    height: 400px;
+    width: 800px;
 }
