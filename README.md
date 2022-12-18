@@ -1,2 +1,2 @@
 # Home-Security
-A website that outlines the best home security practices 
+A [website](https://blakley.github.io/Home-Security/) that outlines the best home security practices 
