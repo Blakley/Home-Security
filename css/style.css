@@ -318,3 +318,13 @@ h6,
 .testimonialSize {
     max-height: 270px;
 }
+
+.mobileNav {
+    visibility: hidden;
+    margin-bottom: 6%;
+    text-decoration: none;
+    font-family: 'Jost', sans-serif;
+    position: relative;
+    font-weight: 500;
+}
+

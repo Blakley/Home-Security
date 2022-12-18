@@ -36,6 +36,12 @@
             }
         }
     });
+
+    // Handle mobile devices
+    let mobile = document.getElementsByClassName('mobileNav')[0];
+    if(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
+        $(mobile).css("visibility", "unset");
+    }
     
 })(jQuery);
 
