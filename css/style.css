@@ -186,10 +186,10 @@ h6,
     background-size: cover;
 }
 
-.hero-header2 {
+/* .hero-header2 {
     background: linear-gradient(rgba(18, 15, 45, .5), rgba(18, 15, 45, .5)), url(../img/home-cam2.jpg) top right no-repeat;
     background-size: cover;
-}
+} */
 
 .service-item div {
     z-index: 1;
@@ -302,4 +302,19 @@ h6,
     box-sizing: border-box;
     height: 400px;
     width: 800px;
+}
+
+/* Image icons */
+.imgIcon {
+    color: #F14D5D !important;
+    width: 100%;
+    max-width: 69px;
+    height: auto;
+    margin-bottom: 45.1px;
+
+}
+
+/* Testimonies and Products */
+.testimonialSize {
+    max-height: 270px;
 }

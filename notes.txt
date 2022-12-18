@@ -3,59 +3,7 @@
                 Website TODO List:
 -------------------------------------------------------------
 
-3. Protection Page 
-    (Preventive measures against threats)
-    (Put all references used here in the about section)
-
-    1. Change "Categories" section to "Protection Types:"
-        1. Install security cameras
-        2. Installing Deadbolts on doors
-        3. Look into install smart devices to monitor home traffic (motion sensors)
-                * For smart devices, make sure your home network is secure 
-                  and consider a router vpn to prevent attacks that could lead your home vulnerable 
-        4. Video Doorbell
-        5. Other
-            Reduce the amount of spare keys you have to prevent the risk of others getting them
-        6. Stronger doors
-
-    2. Remove "Tag cloud, Keyword, Recent Post, side image" 
-    3. Make "Plain Text" section explain the goal of each of the categories from "1"
-    4. Remove "Comments/Leave a comment" section
-    5. Replace the main text body with text talking about each category
-       stats on how they've improved home secuity, their purpose/effectiveness, etc
-
-    reference: https://www.youtube.com/watch?v=L84WvNsdU_M&t=7s&ab_channel=BuzzFeedUnsolvedNetwork
-
-
-4. Services
-    * For the "Categories" mentioned in the Protection Page, provide references to installation providers
-    * Locations to purchase items / get service installation help
-    * Find reputable companies / products for each
-    * Give the best companies for each/talk about how they will help the user
- 
-    1. Change 1st box to a secuirty camera installation provider/somewhere to get it
-    2. Change 2nd box to a deadbolt installation provider/somewhere to get it
-    3. Change 3rd box to a smart monitoring device installation provider/somewhere to get it
-    4. Change 4th box to a video Doorbell installation provider/somewhere to get it
-    5. remove 2 last sections
-    6. In the "testitmonial" section, provide testimonies for each of the boxes
-        at the bottom of each testimony, provide a link to their testimony
-    7. Change middle section to List more info about the benefits of protecting ones home
-
-
-5. About
-   (about site / reference links)
-    * Website about:
-        1. Dangers of not securing your home, and how can secure it.
-        2. Preventive measures against burglary
-
-    1. Remove "Team Members" section
-    2. Update the "links" section to display any/all links used but not referenced
-        Each page will have a section, under the section (for example under "Quick Links" 
-        would be instead "Threats Page", would list links used there)
-    3. Under the Objective section, explain the purpose/goal of the website
-       Provide any additional information here 
-    4. Change "We Offers Quality..." To "Our Objective"
+                    FINISHED
 
 
 -------------------------------------------------------------
@@ -64,5 +12,6 @@
 1. Remove unused css
 2. Remove unused media files
 3. Remove unused script files
-4. Make the Project Public, Publish Site
-5. Submit Website link on Canvas
+4. Spell Check Website
+5. Make the Project Public, Publish Site
+6. Submit Website link on Canvas 
